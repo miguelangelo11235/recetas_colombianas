@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO and Meta Tags -->
+    <title>Sabor de Colombia | Recetas Auténticas</title>
+    <meta name="description" content="Descubre las recetas más deliciosas y auténticas de la gastronomía colombiana. Desde la Bandeja Paisa hasta el Ajiaco.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Floating Navigation -->
+    <nav class="nav-pill">
+        <a href="#inicio">Inicio</a>
+        <a href="#recetas">Recetas</a>
+        <a href="#nosotros">Nosotros</a>
+    </nav>
+
+    <!-- Hero Header -->
+    <header id="inicio">
+        <div class="subtitle">Descubre una herencia de sabor</div>
+        <h1>Cocina Colombiana</h1>
+        <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; text-align: center; margin-top: 1rem;">
+            Un viaje culinario a través de los aromas vibrantes y los colores intensos de las tierras andinas, caribeñas y pacíficas.
+        </p>
+    </header>
+
+    <!-- Main Recipes Content -->
+    <main id="recetas">
+        <h2>Recetas Populares</h2>
+        
+        <div class="recipes-grid">
+            <!-- Bandeja Paisa -->
+            <article class="recipe-card">
+                <img src="./images/bandeja_paisa.png" alt="Plato delicioso de Bandeja Paisa" class="recipe-image">
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Bandeja Paisa</h3>
+                    <p class="recipe-desc">Un super plato característico de la región de Antioquia con chicharrón, fríjoles, plátano maduro y aguacate.</p>
+                    <button class="view-btn">Ver Detalle</button>
+                </div>
+            </article>
+
+            <!-- Ajiaco Colombiano (Mocked Image with Unsplash placeholder as fallback) -->
+            <article class="recipe-card">
+                <img src="./images/ajiaco.webp" alt="Ajiaco Santafereño" class="recipe-image">
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Ajiaco Santafereño</h3>
+                    <p class="recipe-desc">Sopa tradicional con tres tipos de papas, pollo, mazorca tierna y la infaltable guasca cundinamarquesa.</p>
+                    <button class="view-btn">Ver Detalle</button>
+                </div>
+            </article>
+
+            <!-- Arepas (Mocked Image with Unsplash) -->
+            <article class="recipe-card">
+                <img src="./images/arepa_rellena.jpg" alt="Arepas con Queso" class="recipe-image">
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Arepas Rellenas</h3>
+                    <p class="recipe-desc">Símbolo patrio hechas de masa de maíz con un infinito mundo de rellenos, como queso y carne desmechada.</p>
+                    <button class="view-btn">Ver Detalle</button>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="nosotros">
+        <h3 style="color: var(--colombia-yellow); font-size: 1.5rem; margin-bottom: 0.5rem;">Sabor de Colombia</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">Hecho con pasión por el código y la buena cocina. &copy; 2026</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
